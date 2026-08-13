@@ -8,8 +8,17 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Markdown'
-      url: '/''
+    menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'Projects'
+      url: '/projects'
+    - title: 'About'
+      url: '/about'
+    - title: 'Contact'
+      url: '/contact'
 
 footer_settings:
   footer_tagline: Let's get learning.
