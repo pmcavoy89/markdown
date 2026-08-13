@@ -8,7 +8,7 @@ A simple project to educate people on how to use Markdown effectively.
 
 - Ruby v3.1.2+
 
-### Executing
+### Setup
 
 ```bash
 $ cd docs
