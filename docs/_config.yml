@@ -1,7 +1,7 @@
 site: Programming Pat
 
 url:
-baseurl:
+baseurl: /
 collections:
   pages:
     output: true
