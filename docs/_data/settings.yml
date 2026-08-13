@@ -3,12 +3,11 @@ basic_settings:
   favicon_image: 
 
 header_settings:
-  logo_image: 
+  logo_image: images/logo_personal.png
   logo_width: 200
 
 menu_settings:
   menu_items:
-    menu_items:
     - title: 'Home'
       url: '/'
     - title: 'Blog'
@@ -29,9 +28,15 @@ hero_settings:
 post_settings:
   grid_spacing: 10
 
+contact_settings:
+  form_action: 'https://formspree.io/mnqggrve'
+  confirmation_url: '/thanks'
+  email_subject: 'Contact form submission'
+  send_button_text: 'Send Message'
+
 social_settings:
   facebook_url: ''
-  twitter_url: ''
+  twitter_url: 'https://twitter.com/pmcavoy89'
   instagram_url: ''
   snapchat_url: ''
   youtube_url: ''
@@ -56,6 +61,7 @@ social_settings:
   spotify_url: ''
   bandcamp_url: ''
   linkedin_url: 'https://www.linkedin.com/in/pmca89/en'
+  hackerrank_url: 'https://www.hackerrank.com/pmca89'
 
 color_settings:
   background_color: '#ffffff'
