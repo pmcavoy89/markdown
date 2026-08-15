@@ -36,7 +36,7 @@ contact_settings:
 
 social_settings:
   facebook_url: ''
-  twitter_url: 'https://twitter.com/pmcavoy89'
+  twitter_url: ''
   instagram_url: ''
   snapchat_url: ''
   youtube_url: ''
@@ -61,7 +61,7 @@ social_settings:
   spotify_url: ''
   bandcamp_url: ''
   linkedin_url: 'https://www.linkedin.com/in/pmca89/en'
-  hackerrank_url: 'https://www.hackerrank.com/pmca89'
+  hackerrank_url: ''
 
 color_settings:
   background_color: '#ffffff'

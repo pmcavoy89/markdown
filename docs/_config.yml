@@ -1,7 +1,7 @@
 site: Programming Pat
 
 url: https://programmingpat.com
-baseurl:
+baseurl: /markdown
 collections:
   pages:
     output: true
