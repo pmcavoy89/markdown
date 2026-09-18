@@ -1,0 +1,12 @@
+<aside class="sidebar">
+  <nav class="sidebar__nav">
+    <h3 class="sidebar__title">Tutorial</h3>
+    <ul class="sidebar__list">
+      {% for link in site.data.settings.navigation.sidebar_links %}
+      <li class="sidebar__list__item">
+        <a href="{{ link.url | relative_url }}" class="sidebar__link">{{ link.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</aside>
