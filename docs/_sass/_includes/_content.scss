@@ -12,9 +12,24 @@
 }
 
 .single {
+	display: flex;
 	margin-top: 0;
 	padding-bottom: 40px;
 	background: $background-alt-color;
+
+	.sidebar {
+		width: $sidewidth;
+		flex-shrink: 0;
+	}
+
+	.wrap {
+		min-width: 0;
+		width: 100%;
+	}
+
+	.single__content {
+		margin-left: calc((100% - 50%) / 6);
+	}
 
 	@include mq(tabletp) {
 		padding-bottom: 60px;

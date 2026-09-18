@@ -19,6 +19,25 @@ menu_settings:
     - title: 'Contact'
       url: '/contact'
 
+navigation:
+  sidebar_links:
+    - title: 'Introduction'
+      url: '/#introduction/'
+    - title: 'Goal'
+      url: '/goal/'
+    - title: 'Materials'
+      url: '/materials/'
+    - title: 'Tutorial'
+      url: '/tutorial/'
+    - title: 'Cheat Sheet'
+      url: '/cheat-sheet/'
+    - title: 'References'
+      url: '/references/'
+
+sidebar_settings:
+  sidebar_width: 300
+  sidebar_sticky: true
+
 footer_settings:
   footer_tagline: Let's get learning.
 
