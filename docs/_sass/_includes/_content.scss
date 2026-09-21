@@ -25,10 +25,19 @@
 	.wrap {
 		min-width: 0;
 		width: 100%;
+		margin: 0 auto;
 	}
 
 	.single__content {
-		margin-left: calc((100% - 50%) / 6);
+		@include mq(tabletp) {
+			margin-left: auto;
+		}
+		@include mq(tabletl) {
+			margin-right: calc((100% - 50%) / 8);
+		}
+		@include mq(laptop) {
+			margin-left: 0;
+		}
 	}
 
 	@include mq(tabletp) {
