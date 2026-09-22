@@ -25,6 +25,7 @@
   line-height: $h3-lineheight;
   color: $text-dark-color;
   margin-bottom: 10px;
+  padding-top: 12px;
 
   @include mq(tabletp) {
     font-size: $h3-medium;

@@ -22,17 +22,17 @@ menu_settings:
 navigation:
   sidebar_links:
     - title: 'Introduction'
-      url: '/#introduction/'
+      url: '#introduction'
     - title: 'Goal'
-      url: '/goal/'
+      url: '#goal'
     - title: 'Materials'
-      url: '/materials/'
+      url: '#materials'
     - title: 'Tutorial'
-      url: '/tutorial/'
+      url: '#tutorial'
     - title: 'Cheat Sheet'
-      url: '/cheat-sheet/'
+      url: '#cheat-sheet'
     - title: 'References'
-      url: '/references/'
+      url: '#references'
 
 sidebar_settings:
   sidebar_width: 300
