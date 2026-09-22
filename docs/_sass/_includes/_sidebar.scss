@@ -1,0 +1,83 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Sidebar
+
+// - - - - - - - - - - - - - - - - - -
+
+
+.sidebar {
+  width: $sidewidth;
+  flex-shrink: 0;
+  display: none;
+
+  @include mq(tabletl) {
+    display: block;
+    width: $sidewidth;
+  }
+
+}
+
+.sidebar__title {
+  text-align: center;
+  font-size: $h3-small;
+  font-weight: $h3-weight;
+  letter-spacing: $h3-spacing;
+  line-height: $h3-lineheight;
+  color: $text-dark-color;
+  margin-bottom: 10px;
+  padding-top: 12px;
+
+  @include mq(tabletp) {
+    font-size: $h3-medium;
+  }
+
+  @include mq(laptop) {
+    font-size: $h3-large;
+  }
+}
+
+.sidebar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar__list__item {
+  text-align: center;
+
+  & + & {
+    margin-top: 8px;
+  }
+}
+
+.sidebar__link {
+  display: block;
+  padding: 6px 12px;
+  font-size: $p-small;
+  font-weight: $p-weight;
+  letter-spacing: $p-spacing;
+  color: $text-medium-color;
+  border-radius: 4px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  @include transition(color 0.2s ease, background-color 0.2s ease);
+
+  &:hover {
+    color: $accent-color;
+    background-color: $background-alt-color;
+  }
+
+  &.active-link {
+    color: $accent-color;
+    background-color: $background-alt-color;
+  }
+
+  @include mq(tabletp) {
+    font-size: $p-medium;
+    padding: 8px 12px;
+  }
+
+  @include mq(laptop) {
+    font-size: $p-large;
+  }
+}
