@@ -9,6 +9,7 @@ toc: true
 # Table of Contents
 
 - [Headers](#headers)
+- [Horizontal Rule](#horizontal-rule)
 - [Italics](#italics)
 - [Bold / Emphasis](#bold--emphasis)
 - [Blockquote](#blockquote)
@@ -21,7 +22,7 @@ toc: true
 - [Images](#images)
 - [Videos](#videos)
 
-### Headers
+## Headers
 
 Headers go in size, typically up to level 5, with each subsequent `#` lowering the level.
 
@@ -51,7 +52,23 @@ Output:
 
 ##### Level 5
 
-### Italics
+## Horizontal Rule
+
+Code:
+
+```markdown
+---
+
+The dashes above create the Horizontal Rule.
+```
+
+Output:
+
+---
+
+The dashes above create the Horizontal Rule.
+
+## Italics
 
 Code:
 
@@ -65,7 +82,7 @@ Adding _italics_, useful for titles.
 
 _Programming Pat_
 
-### Bold / Emphasis
+## Bold / Emphasis
 
 Code:
 
@@ -80,7 +97,7 @@ Adding **bold/emphasis**, useful for definitions.
 
 **Programming Pat** is a useful website for learning all things tech.
 
-### Blockquote
+## Blockquote
 
 Code:
 
@@ -92,7 +109,7 @@ Output:
 
 > Blockquote
 
-### Code
+## Code
 
 Code:
 
@@ -104,7 +121,7 @@ Output:
 
 Adding `code`, useful for talking about variables.
 
-### Code Block
+## Code Block
 
 ````markdown
 ```markdown
@@ -136,7 +153,7 @@ index++;
 console.log("Hello Programmer");
 ```
 
-### Organized Lists
+## Organized Lists
 
 Code:
 
@@ -154,7 +171,7 @@ Output:
 1. Item Three
 1. Item N...
 
-### Unorganized Lists
+## Unorganized Lists
 
 Code:
 
@@ -170,7 +187,7 @@ Output:
 - Another List Item
 - Last List Item
 
-### Checklist
+## Checklist
 
 TODO: Fix the CSS or the rendering from the gem.
 
@@ -188,7 +205,7 @@ Output:
 - [x] To Do Item 2
 - [ ] To Do Item 3
 
-### Links
+## Links
 
 ```markdown
 Keep in mind, the `-` creates a list item. You can have an [cool link](https://programmingpat.com/markdown) in your sentence.
@@ -208,7 +225,21 @@ Keep in mind, the `-` creates a list item. You can have an [cool link](https://p
 - [Another Website](https://example.com "On Hover Message - Optional")
 - [Programming Pat](https://www.programmingpat.com "A Cool Website")
 
-### Images
+## Tables - GFM
+
+Code:
+
+```markdown
+
+```
+
+Output:
+| Table | Column 1 | Column 2 |
+| ----- | -------- | -------- |
+| Row 1 | Value 1,1 | Value 1,2 |
+| Row 2 | Value 2,1 | Value 2,2 |
+
+## Images
 
 Code:
 
@@ -225,12 +256,13 @@ Code:
 TODO: Edit the size
 ![Awesome Logo](./images/logo_personal.png)
 
-### Videos
+## Videos
 
 Code:
 
 ```
-
+TODO: Add in the correct anchor
+<a />
 ```
 
 Output:
