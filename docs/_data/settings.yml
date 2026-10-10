@@ -3,7 +3,7 @@ basic_settings:
   favicon_image: 
 
 header_settings:
-  logo_image: /images/logo_personal.png
+  logo_image: /images/personal_logo.png
   logo_width: 200
 
 menu_settings:
@@ -18,6 +18,21 @@ menu_settings:
       url: '/about'
     - title: 'Contact'
       url: '/contact'
+
+navigation:
+  sidebar_links:
+    - title: 'README'
+      url: '/'
+    - title: 'Tutorial'
+      url: '/tutorial/'
+    - title: 'Cheat Sheet'
+      url: '/cheat-sheet/'
+    - title: 'References'
+      url: '/references/'
+
+sidebar_settings:
+  sidebar_width: 300
+  sidebar_sticky: true
 
 footer_settings:
   footer_tagline: Let's get learning.
