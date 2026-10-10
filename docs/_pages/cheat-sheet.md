@@ -219,17 +219,19 @@ Code:
 
 ```markdown
 ![Alternate text](./not-found.png)
-![Shown When Image Not Found](./not-found.png)
-![Personal Logo](./images/personal_logo.png)
+![Shown When Image Not Found](/not-found.png)
+![Personal Logo](/images/personal_logo.png)
 ```
 
 ![Alternate text](./not-found.png)
 
-![Shown When Image Not Found](./not-found.png)
+![Shown When Image Not Found](/not-found.png)
 
-![Personal Logo](/markdown/images/personal_logo.png)
+![Personal Logo](/images/personal_logo.png)
 
 > **Note**: The above image of `./images/not-found.png` is not in my project. It is to show you the example of "Alternate text." Depending on the browser, the user may or may not see the text on the page.
+
+> **Note**: Also note the differences between `./` and `/`, the first being a relative path, and the other being absolute. For most use cases, use the absolute, `/`.
 
 > **Fun Fact**: Using alternate text is a great way to afford accessibility for screen readers. Check out [Section 508](https://www.section508.gov/training/alt-text/what-is-alternative-text/).
 
