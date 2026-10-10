@@ -3,7 +3,7 @@ basic_settings:
   favicon_image: 
 
 header_settings:
-  logo_image: /images/logo_personal.png
+  logo_image: /images/personal_logo.png
   logo_width: 200
 
 menu_settings:
@@ -21,18 +21,14 @@ menu_settings:
 
 navigation:
   sidebar_links:
-    - title: 'Introduction'
-      url: '#introduction'
-    - title: 'Goal'
-      url: '#goal'
-    - title: 'Materials'
-      url: '#materials'
+    - title: 'README'
+      url: '/'
     - title: 'Tutorial'
-      url: '#tutorial'
+      url: '/tutorial/'
     - title: 'Cheat Sheet'
-      url: '#cheat-sheet'
+      url: '/cheat-sheet/'
     - title: 'References'
-      url: '#references'
+      url: '/references/'
 
 sidebar_settings:
   sidebar_width: 300
