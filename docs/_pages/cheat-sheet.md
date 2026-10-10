@@ -15,18 +15,18 @@ featured_image: /images/markdown.jpg
 - [Code](#code)
 - [Code Block](#code-block)
 - [Organized Lists](#organized-lists)
-- [Unorganized Lists](#unorganized-lists)
+- [Unordered Lists](#unordered-lists)
 - [Links](#links)
 - [Images](#images)
 - [Videos](#videos)
-- [GitHub Flavor Markdown](#github-flavor-markdown)
+- [GitHub-Flavor Markdown](#github-flavor-markdown)
   - [Checklist](#checklist)
   - [Tables](#tables)
   - [Strikethrough](#strikethrough)
 
 ## Headers
 
-Headers go in size, typically up to level 5, with each subsequent `#` lowering the level.
+Headers decrease in size, typically up to level 5, with each subsequent `#` lowering the level.
 
 Code:
 
@@ -177,7 +177,7 @@ Output:
 1. Item Three
 1. Item N...
 
-## Unorganized Lists
+## Unordered Lists
 
 Code:
 
@@ -196,7 +196,7 @@ Output:
 ## Links
 
 ```markdown
-Keep in mind, the `-` creates a list item. You can have an [cool link](https://programmingpat.com/markdown) in your sentence.
+Keep in mind, a hyphen, `-`, creates a list item. You can have a [cool link](https://programmingpat.com/markdown) in your sentence.
 
 - [Next page](/markdown/next-page)
 - [Level 1 Header](#level-1-header)
@@ -206,7 +206,7 @@ Keep in mind, the `-` creates a list item. You can have an [cool link](https://p
 
 Output:
 
-Keep in mind, the `-` creates a list item. You can have an [cool link](https://programmingpat.com/markdown) in your sentence.
+Keep in mind, a hyphen, `-`, creates a list item. You can have a [cool link](https://programmingpat.com/markdown) in your sentence.
 
 - [Next page](/markdown/next-page)
 - [Level 1 Header](#level-1-header)
@@ -219,49 +219,49 @@ Code:
 
 ```markdown
 ![Alternate text](./not-found.png)
-![Show When Image Not Found](./not-found.png)
+![Shown When Image Not Found](./not-found.png)
 ![Personal Logo](./images/personal_logo.png)
 ```
 
 ![Alternate text](./not-found.png)
 
-![Show When Image Not Found](./not-found.png)
+![Shown When Image Not Found](./not-found.png)
 
-> **Note**: The above images are not ones in my project. It is to show you the example of "Alternate text." Depending on the browser, you will be able to provide a message to your users about what should be there.
+![Personal Logo](/markdown/images/personal_logo.png)
+
+> **Note**: The above image of `./images/not-found.png` is not in my project. It is to show you the example of "Alternate text." Depending on the browser, the user may or may not see the text on the page.
 
 > **Fun Fact**: Using alternate text is a great way to afford accessibility for screen readers. Check out [Section 508](https://www.section508.gov/training/alt-text/what-is-alternative-text/).
-
-![Personal Logo](./images/personal_logo.png)
 
 ## Videos
 
 Code:
 
 ```
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=FDAsGmiSgVQ
-" target="_blank"><img src="http://img.youtube.com/vi/FDAsGmiSgVQ/0.jpg"
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=FDAsGmiSgVQ
+" target="_blank"><img src="https://img.youtube.com/vi/FDAsGmiSgVQ/0.jpg"
 alt="Red Black Tree Example Part 1" width="240" height="180" border="10" /></a>
 ```
 
 Output:
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 > **Note**: The above video is the broken YouTube link as it has the `YOUTUBE_VIDEO_ID_HERE` which you can find in the URL, such as; `https://www.youtube.com/watch?v=FDAsGmiSgVQ`.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=FDAsGmiSgVQ
-" target="_blank"><img src="http://img.youtube.com/vi/FDAsGmiSgVQ/0.jpg"
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=FDAsGmiSgVQ
+" target="_blank"><img src="https://img.youtube.com/vi/FDAsGmiSgVQ/0.jpg"
 alt="Red Black Tree Example Part 1" width="240" height="180" border="10" /></a>
 
-## GitHub Flavor Markdown
+## GitHub-Flavor Markdown
 
-This markdown is supported on GitHub and many other web apps. This allows to extend on the regular markdown you know and make it even more useful for organizing and sharing thoughts or tasks.
+This markdown is supported on GitHub and many other web apps (but not all). This allows to extend on the regular markdown you know and make it even more useful for organizing and sharing thoughts or tasks.
 
 ### Checklist
 
@@ -270,14 +270,14 @@ Code:
 ```markdown
 - [ ] To Do Item 1
 - [ ] To Do Item 2
-- [ ] To Do Item 3
+- [x] To Do Item 3
 ```
 
 Output:
 
 - [ ] To Do Item 1
-- [x] To Do Item 2
-- [ ] To Do Item 3
+- [ ] To Do Item 2
+- [x] To Do Item 3
 
 ### Tables
 
