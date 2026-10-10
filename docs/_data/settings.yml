@@ -24,11 +24,11 @@ navigation:
     - title: 'README'
       url: '/'
     - title: 'Tutorial'
-      url: '/tutorial/'
+      url: '/tutorial'
     - title: 'Cheat Sheet'
-      url: '/cheat-sheet/'
+      url: '/cheat-sheet'
     - title: 'References'
-      url: '/references/'
+      url: '/references'
 
 sidebar_settings:
   sidebar_width: 300
