@@ -15,11 +15,6 @@ This project is intended to teach everyone how to create beautifully styled docu
 
 To enrich our written communication for the web.
 
-## Materials
-
-- Computer with internet access
-- Access to an online Markdown editor (e.g., [Dillinger](https://dillinger.io), [StackEdit](https://stackedit.io/app#))
-
 ## Tutorial
 
 I've created a tutorial to get you started learning Markdown with ease. Start by clicking [here](/markdown/tutorial).
