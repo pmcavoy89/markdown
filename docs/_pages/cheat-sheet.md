@@ -1,6 +1,6 @@
 ---
 title: Cheat Sheet
-subtitle: Quickly reference the syntax to create wonderful Markdown pages
+subtitle: Quickly reference the syntax to create beautiful Markdown pages
 layout: page
 featured_image: /images/markdown.jpg
 ---
@@ -227,7 +227,7 @@ Code:
 
 ![Shown When Image Not Found](/not-found.png)
 
-![Personal Logo](/images/personal_logo.png)
+![Personal Logo](/markdown/images/personal_logo.png)
 
 > **Note**: The above image of `./images/not-found.png` is not in my project. It is to show you the example of "Alternate text." Depending on the browser, the user may or may not see the text on the page.
 
