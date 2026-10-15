@@ -1,0 +1,68 @@
+/* Container styling for the task list item */
+li.task-list-item {
+  list-style-type: none;
+  /* Hide default bullet point */
+  position: relative;
+  padding-left: 1.8em;
+  /* Space for custom checkbox */
+  margin-bottom: 0.5em;
+  font-family: sans-serif;
+}
+
+/* Hide the native disabled checkbox completely */
+li.task-list-item input[type="checkbox"].task-list-item-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create the custom checkbox background/border */
+li.task-list-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border: 2px solid $accent-color;
+  /* Modern Blue Border */
+  border-radius: 4px;
+  /* Slightly rounded corners */
+  background-color: $background-color;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Active/Checked state appearance */
+li.task-list-item:has(input:checked)::before {
+  background-color: $accent-color;
+  /* Solid Blue background when checked */
+  border-color: $accent-color;
+}
+
+/* Create the checkmark (hidden by default) */
+li.task-list-item::after {
+  content: "";
+  position: absolute;
+  left: 0.4em;
+  top: 0.45em;
+  width: 0.35em;
+  height: 0.6em;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg) scale(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Reveal and animate checkmark when input is checked */
+li.task-list-item:has(input:checked)::after {
+  transform: rotate(45deg) scale(1);
+}
+
+/* Optional: Strikethrough style for completed text label */
+li.task-list-item:has(input:checked) {
+  color: $border-color;
+  /* Muted gray text */
+  text-decoration: line-through;
+}

@@ -136,11 +136,8 @@ $sidewidth: {{ site.data.settings.sidebar_settings.sidebar_width }}px;
 @import "_includes/_header";
 @import "_includes/_footer";
 
-@import "_includes/_content";
-@import "_includes/_socials";
-@import "_includes/_gallery";
-@import "_includes/_syntax";
-@import "_includes/_contact-form";
+// - - - - - - - - - - Page Classes
+@import "_includes/_task-list-item";
 
 
 
@@ -150,4 +147,8 @@ $sidewidth: {{ site.data.settings.sidebar_settings.sidebar_width }}px;
 @import "_includes/_hero";
 
 @import "_includes/_sidebar";
-
+@import "_includes/_content";
+@import "_includes/_socials";
+@import "_includes/_gallery";
+@import "_includes/_syntax";
+@import "_includes/_contact-form";
