@@ -7,6 +7,10 @@ featured_image: /images/markdown.jpg
 
 ## Goal
 
+Is to create a short story, about a page long, made in Markdown.
+
+This will allow us to learn the basic syntax, features, and styling of the document. Learning Markdown is an easy first step to creating a simple website to finally create that novel, portfolio, or blog you always wanted to share.
+
 ## Getting Started
 
 ## Text Formatting
