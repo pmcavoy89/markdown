@@ -21,8 +21,8 @@ I've created a tutorial to get you started learning Markdown with ease. Start by
 
 ## Cheat Sheet
 
-Check out the [Cheat Sheet](./cheat-sheet.md) I've made to quickly look up the syntax to style your documents quickly.
+Check out the [Cheat Sheet](./cheat-sheet) I've made to quickly look up the syntax to style your documents quickly.
 
 ## References
 
-Check out the sources used in the creation of this project in the [references](./references.md).
+Check out the sources used in the creation of this project in the [references](./references).
